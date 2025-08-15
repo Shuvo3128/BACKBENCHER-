@@ -1,4 +1,5 @@
-Sentiment Analysis on IMDB Reviews 🎬📊
+Sentiment Analysis on IMDB Reviews 🎬
+
 📌 Project Overview
 
 This project performs sentiment analysis on IMDB movie reviews, classifying them as Positive or Negative.
@@ -43,16 +44,17 @@ ML/DL: scikit-learn, TensorFlow/Keras
 
 Vectorization: TF-IDF, Keras Tokenizer
 
+| Model               | Accuracy  | Precision | Recall | F1-score  |
+| ------------------- | --------- | --------- | ------ | --------- |
+| Logistic Regression | **0.894** | 0.894     | 0.896  | **0.895** |
+| Linear SVM          | 0.886     | 0.889     | 0.882  | 0.886     |
+| Random Forest       | 0.861     | 0.867     | 0.854  | 0.860     |
+| LSTM                | 0.875     | 0.873     | 0.879  | 0.876     |
+| BiLSTM              | 0.879     | 0.878     | 0.881  | 0.880     |
+| CNN                 | 0.872     | 0.870     | 0.875  | 0.872     |
+| GRU                 | 0.878     | 0.877     | 0.880  | 0.879     |
 
-📊 Results Summary
-Model	Accuracy	Precision	Recall	F1-score
-Logistic Regression	0.894	0.894	0.896	0.895
-Linear SVM	0.886	0.889	0.882	0.886
-Random Forest	0.861	0.867	0.854	0.860
-LSTM	0.875	0.873	0.879	0.876
-BiLSTM	0.879	0.878	0.881	0.880
-CNN	0.872	0.870	0.875	0.872
-GRU	0.878	0.877	0.880	0.879
+
 
 Best Classical Model → Logistic Regression (F1 ≈ 0.895)
 Best Deep Learning Model → BiLSTM (F1 ≈ 0.880)
